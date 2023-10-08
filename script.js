@@ -33,7 +33,8 @@ function playRound(playerSelection, computerSelection) {
 
 
 for (i=0; i <= 4; i++) {
-  const playerSelection = "rock";
+ var round = prompt("Please enter value:", "")
+  const playerSelection = round;
   const computerSelection = getComputerChoice();
   console.log(playRound(playerSelection, computerSelection));
 }
