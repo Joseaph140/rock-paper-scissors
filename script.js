@@ -30,6 +30,10 @@ function playRound(playerSelection, computerSelection) {
 
 }
 
-const playerSelection = "rock";
-const computerSelection = getComputerChoice();
-console.log(playRound(playerSelection, computerSelection));
+
+
+for (i=0; i <= 4; i++) {
+  const playerSelection = "rock";
+  const computerSelection = getComputerChoice();
+  console.log(playRound(playerSelection, computerSelection));
+}
